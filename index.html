@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pepsi – Thức Uống Của Thế Hệ Mới</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-circle">
+          <img src="img/logo1.png" alt="Pepsi Logo" class="logo-img" />
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Trang Chủ</a></li>
+        <li><a href="#products">Sản Phẩm</a></li>
+        <li><a href="#about">Về Chúng Tôi</a></li>
+        <li><a href="#stats">Thành Tựu</a></li>
+        <li><a href="#contact">Liên Hệ</a></li>
+      </ul>
+      <a href="#products" class="nav-cta">Khám Phá Ngay</a>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-banner-bg">
+      <img src="img/banner.jpg" alt="Pepsi Banner" class="hero-banner-img" />
+      <div class="hero-banner-overlay"></div>
+    </div>
+    <div class="hero-bg-circles">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+      <div class="circle c4"></div>
+    </div>
+    <div class="hero-particles">
+      <span></span><span></span><span></span>
+      <span></span><span></span><span></span>
+    </div>
+    <div class="hero-content">
+      <span class="hero-badge">🔥 Thức Uống #1 Thế Giới</span>
+      <h1>Cảm Nhận<br /><span class="highlight">Sự Khác Biệt</span><br />Với Pepsi</h1>
+      <p>Hương vị đậm đà, sảng khoái tức thì. Pepsi – người bạn đồng hành của mọi khoảnh khắc sống động.</p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn-primary">Xem Sản Phẩm</a>
+        <a href="#about" class="btn-secondary">Tìm Hiểu Thêm</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Cuộn xuống</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- MARQUEE BANNER -->
+  <div class="marquee-bar">
+    <div class="marquee-track">
+      <span>🥤 Pepsi Original &nbsp;•&nbsp;</span>
+      <span>🍋 Pepsi Lime &nbsp;•&nbsp;</span>
+      <span>🫐 Pepsi Wild Cherry &nbsp;•&nbsp;</span>
+      <span>🧊 Pepsi Zero Sugar &nbsp;•&nbsp;</span>
+      <span>🌊 Pepsi Blue &nbsp;•&nbsp;</span>
+      <span>⚡ Pepsi Max &nbsp;•&nbsp;</span>
+      <span>🥤 Pepsi Original &nbsp;•&nbsp;</span>
+      <span>🍋 Pepsi Lime &nbsp;•&nbsp;</span>
+      <span>🫐 Pepsi Wild Cherry &nbsp;•&nbsp;</span>
+      <span>🧊 Pepsi Zero Sugar &nbsp;•&nbsp;</span>
+      <span>🌊 Pepsi Blue &nbsp;•&nbsp;</span>
+      <span>⚡ Pepsi Max &nbsp;•&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dòng Sản Phẩm</span>
+        <h2>Chọn Hương Vị <span class="highlight">Của Bạn</span></h2>
+        <p>Đa dạng lựa chọn cho mọi khẩu vị và phong cách sống</p>
+      </div>
+      <div class="products-grid">
+
+        <div class="product-card featured">
+          <div class="product-badge">Bán Chạy</div>
+          <div class="product-img-wrap">
+            <img src="img/images (1).jpg" alt="Pepsi Original" />
+          </div>
+          <h3>Pepsi Original</h3>
+          <p>Hương vị cola cổ điển, sảng khoái từng ngụm. Công thức bí truyền hơn 125 năm.</p>
+          <div class="product-price">25.000 ₫</div>
+          <button class="btn-buy">Mua Ngay</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="img/images (2).jpg" alt="Pepsi Zero Sugar" />
+          </div>
+          <h3>Pepsi Wild Cherry</h3>
+          <p>Vị chanh thanh mát, dành cho mùa hè.</p>
+          <div class="product-price">25.000 ₫</div>
+          <button class="btn-buy">Mua Ngay</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-badge new">Mới</div>
+          <div class="product-img-wrap">
+            <img src="img/images.jpg" alt="Pepsi Wild Cherry" />
+          </div>
+          <h3>Pepsi Vị Nguyên Bản</h3>
+          <p>Vị ngon không đổi, tạo nên trải nghiệm độc đáo.</p>
+          <div class="product-price">28.000 ₫</div>
+          <button class="btn-buy">Mua Ngay</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="img/download.jpg" alt="Pepsi Lime" />
+          </div>
+          <h3>Pepsi Zero Sugar</h3>
+          <p>Vị ngon không đường, dành cho lối sống lành mạnh và năng động.</p>
+          <div class="product-price">25.000 ₫</div>
+          <button class="btn-buy">Mua Ngay</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="img/download (1).jpg" alt="Pepsi Max" />
+          </div>
+          <h3>Pepsi Max</h3>
+          <p>Hương vị cola mạnh mẽ nhất, không calo, dành cho những ai yêu thích sự bứt phá.</p>
+          <div class="product-price">28.000 ₫</div>
+          <button class="btn-buy">Mua Ngay</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-badge">Giới Hạn</div>
+          <div class="product-img-wrap">
+            <img src="img/images (3).jpg" alt="Pepsi Blue" />
+          </div>
+          <h3>Pepsi Blue</h3>
+          <p>Phiên bản đặc biệt hương berry xanh, màu sắc nổi bật, hương vị khó quên.</p>
+          <div class="product-price">32.000 ₫</div>
+          <button class="btn-buy">Mua Ngay</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / STORY -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-images">
+        <img class="about-img main-img"
+             src="img/hinh1.jpg"
+             alt="Pepsi lifestyle" />
+        <img class="about-img secondary-img"
+             src="img/hinh2.webp"
+             alt="Pepsi can close up" />
+        <div class="about-badge-float">
+          <span class="big-num">125+</span>
+          <span>Năm Lịch Sử</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-tag">Câu Chuyện Thương Hiệu</span>
+        <h2>Hơn Một Thế Kỷ <span class="highlight">Sảng Khoái</span></h2>
+        <p>Pepsi được tạo ra năm 1893 bởi dược sĩ Caleb Bradham tại North Carolina, Mỹ. Từ một công thức đơn giản, Pepsi đã trở thành biểu tượng văn hóa toàn cầu.</p>
+        <p>Với triết lý "Thức uống của thế hệ mới", Pepsi luôn gắn liền với âm nhạc, thể thao và tinh thần trẻ trung, năng động – kết nối hàng tỷ người trên khắp thế giới.</p>
+        <div class="about-features">
+          <div class="feature-item">
+            <i class="fas fa-globe"></i>
+            <div>
+              <strong>200+ Quốc Gia</strong>
+              <span>Hiện diện toàn cầu</span>
+            </div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-leaf"></i>
+            <div>
+              <strong>Bền Vững</strong>
+              <span>Cam kết môi trường xanh</span>
+            </div>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <strong>Giải Thưởng</strong>
+              <span>Thương hiệu được yêu thích nhất</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Con Số Ấn Tượng</span>
+        <h2>Pepsi Trong <span class="highlight-light">Những Con Số</span></h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <i class="fas fa-users"></i>
+          <div class="stat-num" data-target="1000000000">0</div>
+          <div class="stat-label">Người Dùng Mỗi Ngày</div>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-flag"></i>
+          <div class="stat-num" data-target="200">0</div>
+          <div class="stat-label">Quốc Gia Phân Phối</div>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-bottle-water"></i>
+          <div class="stat-num" data-target="125">0</div>
+          <div class="stat-label">Năm Lịch Sử</div>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-star"></i>
+          <div class="stat-num" data-target="98">0</div>
+          <div class="stat-label">% Khách Hàng Hài Lòng</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Khách Hàng Nói Gì</span>
+        <h2>Họ Yêu <span class="highlight">Pepsi</span> Vì Sao?</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Pepsi luôn là lựa chọn đầu tiên của tôi mỗi khi cần giải khát. Hương vị không thay đổi, luôn tuyệt vời!"</p>
+          <div class="reviewer">
+            <img src="https://i.pravatar.cc/60?img=11" alt="Reviewer" />
+            <div>
+              <strong>Nguyễn Minh Tuấn</strong>
+              <span>TP. Hồ Chí Minh</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured-review">
+          <div class="stars">★★★★★</div>
+          <p>"Pepsi Zero Sugar là người bạn đồng hành hoàn hảo trong những buổi tập gym. Ngon mà không lo calo!"</p>
+          <div class="reviewer">
+            <img src="https://i.pravatar.cc/60?img=5" alt="Reviewer" />
+            <div>
+              <strong>Trần Thị Lan Anh</strong>
+              <span>Hà Nội</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Mỗi bữa tiệc đều không thể thiếu Pepsi. Bạn bè tôi ai cũng mê hương vị này từ nhỏ đến lớn."</p>
+          <div class="reviewer">
+            <img src="https://i.pravatar.cc/60?img=33" alt="Reviewer" />
+            <div>
+              <strong>Lê Hoàng Phúc</strong>
+              <span>Đà Nẵng</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-circles">
+      <div class="cta-c1"></div>
+      <div class="cta-c2"></div>
+    </div>
+    <div class="container cta-content">
+      <h2>Sẵn Sàng Cảm Nhận<br /><span class="highlight-light">Hương Vị Pepsi?</span></h2>
+      <p>Đặt hàng ngay hôm nay – giao hàng nhanh toàn quốc trong 24 giờ</p>
+      <div class="cta-buttons">
+        <a href="#products" class="btn-primary large">Mua Ngay</a>
+        <a href="#contact" class="btn-outline large">Liên Hệ Đại Lý</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-tag">Liên Hệ</span>
+        <h2>Kết Nối <span class="highlight">Với Chúng Tôi</span></h2>
+        <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7. Hãy liên hệ để biết thêm về sản phẩm và chương trình ưu đãi.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Địa Chỉ</strong>
+              <span>123 Đường Pepsi, Quận 1, TP. Hồ Chí Minh</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Hotline</strong>
+              <span>1800 1234 (Miễn phí)</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <span>contact@pepsi.com.vn</span>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="Họ và tên" required />
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email của bạn" required />
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Số điện thoại" />
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Nội dung tin nhắn..." rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">Gửi Tin Nhắn <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo-circle logo-circle-lg">
+          <img src="img/logo.png" alt="Pepsi" class="logo-img" />
+        </div>
+        <p>Pepsi – Thức uống của thế hệ mới. Sảng khoái, năng động, không giới hạn.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Sản Phẩm</h4>
+        <ul>
+          <li><a href="#">Pepsi Original</a></li>
+          <li><a href="#">Pepsi Zero Sugar</a></li>
+          <li><a href="#">Pepsi Wild Cherry</a></li>
+          <li><a href="#">Pepsi Max</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Công Ty</h4>
+        <ul>
+          <li><a href="#">Về Chúng Tôi</a></li>
+          <li><a href="#">Tin Tức</a></li>
+          <li><a href="#">Tuyển Dụng</a></li>
+          <li><a href="#">Đối Tác</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Hỗ Trợ</h4>
+        <ul>
+          <li><a href="#">Chính Sách Bảo Mật</a></li>
+          <li><a href="#">Điều Khoản Sử Dụng</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 PepsiCo, Inc. All Rights Reserved. | Được thiết kế với ❤️ tại Việt Nam</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
